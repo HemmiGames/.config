@@ -1,0 +1,5 @@
+2026/04/07-12:45:43.039 1eb5 Creating DB /home/paul/.config/Proton Mail/Partitions/app/Local Storage/leveldb since it was missing.
+2026/04/07-12:45:43.042 1eb5 Reusing MANIFEST /home/paul/.config/Proton Mail/Partitions/app/Local Storage/leveldb/MANIFEST-000001
+2026/04/07-12:46:43.055 1eb4 Level-0 table #5: started
+2026/04/07-12:46:43.057 1eb4 Level-0 table #5: 14575 bytes OK
+2026/04/07-12:46:43.058 1eb4 Delete type=0 #3

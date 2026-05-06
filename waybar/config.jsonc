@@ -15,7 +15,6 @@
     "custom/pomodoro",
     "bluetooth",
     "network",
-    "custom/vpn",
     "pulseaudio", 
     "backlight",
     "battery",
@@ -67,14 +66,8 @@
     "interval": 5,
     "tooltip-format": "{essid} ({signalStrength}%)",
     "on-click": "nm-connection-editor"
+  },
 
- },
-  "custom/vpn": {
-  "format": "{}",
-  "tooltip": "true",
-  "return-type": "json",
-  "interval": 5,
-},
   "cpu": {
     "interval": 1,
     "format": "  {icon0}{icon1}{icon2}{icon3} {usage:>2}%",

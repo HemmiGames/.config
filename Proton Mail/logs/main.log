@@ -1,0 +1,594 @@
+[2026-04-07 12:45:42.851] [info]  (main)         AppID generated {
+  id: 'a3fb4c89-3934-4bef-bfa3-11120be86f67',
+  hash: '4c9eb4592f08dbbf1e684e676d295efb3ec743f9c312020e42447f69a4e02717',
+  distribution: 0.2992966382726396
+}
+[2026-04-07 12:45:42.856] [info]  (settings)     Settings not found, using default settings
+[2026-04-07 12:45:42.883] [info]  (main)         App start is mac: false is windows: false islinux: true issnap: false snaprevision:  version: 1.12.1 osversion: 6.19.11-arch1-1 params [ '/usr/lib/electron37/electron', '/usr/share/proton-mail/app.asar' ]
+[2026-04-07 12:45:42.886] [info]  (main)         Build info: {"idaTag":"ida-393","buildTag":"ida-393","appVersion":"1.12.1"}
+[2026-04-07 12:45:42.887] [info]  (main)         Desktop features: inapppayments:true, themeselection:true, earlyaccess:true, multiaccount:true, latestversioncheck:true, installsource:true, mailtotelemetry:false, mailtoupdate:true, esuserchoice:true, fulltheme:true, storeversion:true, heartbeatmetrics:true, statstelemetry:true, restrictedthemeselection:true, clearappmodal:true, snapsupport:true, bugreportlogattachments:true, printdialog:true
+[2026-04-07 12:45:42.895] [info]  (main)         Enable check default mail to app
+[2026-04-07 12:45:42.895] [info]  (protocol)     Requested to check if app default mailto. Current status: true
+[2026-04-07 12:45:42.897] [debug] (protocol)     Storing default protocols: {
+  mailto: {
+    shouldBeDefault: true,
+    wasDefaultInPast: false,
+    lastReport: { wasDefault: false, timestamp: 0 },
+    canUpdateDefault: true
+  }
+}
+[2026-04-07 12:45:43.061] [debug] (protocol)     Checking default mailto
+[2026-04-07 12:45:43.100] [debug] (protocol)     Storing default protocols: {
+  mailto: {
+    shouldBeDefault: true,
+    wasDefaultInPast: true,
+    canUpdateDefault: true,
+    lastReport: { wasDefault: false, timestamp: 0 }
+  }
+}
+[2026-04-07 12:45:43.101] [info]  (protocol)     App default mailto client status {
+  isDefault: true,
+  wasChecked: true,
+  shouldBeDefault: true,
+  wasDefaultInPast: true,
+  canUpdateDefault: true,
+  lastReport: { wasDefault: false, timestamp: 0 }
+}
+[2026-04-07 12:45:43.103] [info]  (update)       Initialization of update checks.
+[2026-04-07 12:45:43.103] [info]  (update)       Checking for new valid version.
+[2026-04-07 12:45:43.174] [info]  (main)         Creating views
+[2026-04-07 12:45:43.179] [info]  (main)         Skipping heartbeat, listener is not ready
+[2026-04-07 12:45:43.183] [info]  (flag-manager) Feature flags loaded from cache {
+  lastUpdated: '1970-01-01T00:00:00.000Z',
+  flags: {
+    InboxDesktopAppVersionExtensionDisabled: false,
+    InboxDesktopElectronAndOsVersionUpdateConstraintsDisabled: false,
+    'inda-test-flag-1': false,
+    'inda-test-flag-2': false
+  }
+}
+[2026-04-07 12:45:43.184] [debug] (flag-manager) Checking flags
+[2026-04-07 12:45:43.184] [info]  (flag-manager) Feature flag periodic check started { intervalMS: 60000 }
+[2026-04-07 12:45:43.189] [info]  (mail)         loadURL from  to https://mail.proton.me/
+[2026-04-07 12:45:44.054] [info]  (update)       Skipping update: no newer version available. local: {"Version":"1.12.1","RolloutProportion":0.9802629663653208,"CategoryName":"Stable"} remote: {"CategoryName":"Stable","Version":"1.12.1","ReleaseDate":"2026-01-29","File":[{"Identifier":".deb (Ubuntu/Debian)","Url":"https://proton.me/download/mail/linux/1.12.1/ProtonMail-desktop-beta.deb","Sha512CheckSum":"e5d69709dbd9ce70eab63a8fe30698fcebe32d08db18dfccc4eb9443d4cc8067a422f4b680d9f74d5408c5f3fce95bf0ede2d4064f609415bf0b5479b55601b9"},{"Identifier":".rpm (Fedora/RHEL)","Url":"https://proton.me/download/mail/linux/1.12.1/ProtonMail-desktop-beta.rpm","Sha512CheckSum":"1e7d572859e3452e208f6ae3f6e5eac7d6bbb4cb014b36f6c7a7b0b0a7bd916d7c8562775d806536729f18762bf16600a3dc050b46ca1c0733addf6ac55a311c"}],"ReleaseNotes":[],"RolloutProportion":1,"ManualUpdate":["0.9.0"],"MinimumAppVersion":"1.0.0"}
+[2026-04-07 12:45:44.055] [info]  (update)       Skipping update: no newer version available. local: {"Version":"1.12.1","RolloutProportion":0.9802629663653208,"CategoryName":"Stable"} remote: {"CategoryName":"Stable","Version":"1.11.0","ReleaseDate":"2025-11-28","File":[{"Identifier":".deb (Ubuntu/Debian)","Url":"https://proton.me/download/mail/linux/1.11.0/ProtonMail-desktop-beta.deb","Sha512CheckSum":"0f9a8996d1b58ed3e9b2236d610a4a4aae912cec10a39c7e9cd59ee2d0addbba7da931b2691c764f23a44566204c86651e07e3cc1b1730e78dd788dc0cf2c306"},{"Identifier":".rpm (Fedora/RHEL)","Url":"https://proton.me/download/mail/linux/1.11.0/ProtonMail-desktop-beta.rpm","Sha512CheckSum":"8e02ad7e2a02d0bd49a112e93b404154ff16bddcfbac27979d9dfbcf0660a28481f2656ff93d031215dc2a5cdd6fb060abfad8f13cc00a41bb3db4d22ccf7fc8"}],"ReleaseNotes":[],"RolloutProportion":1,"ManualUpdate":["0.9.0"],"MinimumAppVersion":"1.0.0"}
+[2026-04-07 12:45:44.056] [info]  (update)       Skipping update: no newer version available. local: {"Version":"1.12.1","RolloutProportion":0.9802629663653208,"CategoryName":"Stable"} remote: {"CategoryName":"Stable","Version":"1.10.1","ReleaseDate":"2025-11-07","File":[{"Identifier":".deb (Ubuntu/Debian)","Url":"https://proton.me/download/mail/linux/1.10.1/ProtonMail-desktop-beta.deb","Sha512CheckSum":"405ad9659153fdd5c426b4601a1f20138e5f4eacdf58524a2cefc0612d89fefd37265457bdef6b7da7bb223d7c17124e100703857c985b792d2528a7916f18a1"},{"Identifier":".rpm (Fedora/RHEL)","Url":"https://proton.me/download/mail/linux/1.10.1/ProtonMail-desktop-beta.rpm","Sha512CheckSum":"863ea787f9e2a1acf50a7264d550c404fe86395f23323e50461f9db4e92103dce234a6902441b587ef1c59071387920afa1a1063fc691e7468420d3360856c52"}],"ReleaseNotes":[],"RolloutProportion":1,"ManualUpdate":["0.9.0"]}
+[2026-04-07 12:45:44.056] [info]  (update)       Skipping update: no newer version available. local: {"Version":"1.12.1","RolloutProportion":0.9802629663653208,"CategoryName":"Stable"} remote: {"CategoryName":"Stable","Version":"1.9.1","ReleaseDate":"2025-09-24","File":[{"Identifier":".deb (Ubuntu/Debian)","Url":"https://proton.me/download/mail/linux/1.9.1/ProtonMail-desktop-beta.deb","Sha512CheckSum":"8f78db0707e3f1f0cd8ad259891840f88027c56b347c7526e8283576a997cef543c8014569aaf774f444e0d714bcd6e54a5c48171553384368c38cec4cf94e5b"},{"Identifier":".rpm (Fedora/RHEL)","Url":"https://proton.me/download/mail/linux/1.9.1/ProtonMail-desktop-beta.rpm","Sha512CheckSum":"3733868fe4d9b704bfe232589c0e7959cf1d9b2ed2a715785a3f858201bb896aa7d20ac2823f1060b85f2eaed833778b3b1458f872bebd48e85f8b2375a90af4"}],"ReleaseNotes":[],"RolloutProportion":1,"ManualUpdate":["0.9.0"]}
+[2026-04-07 12:45:44.057] [info]  (update)       Skipping update: no newer version available. local: {"Version":"1.12.1","RolloutProportion":0.9802629663653208,"CategoryName":"Stable"} remote: {"CategoryName":"Stable","Version":"1.9.0","ReleaseDate":"2025-08-05","File":[{"Identifier":".deb (Ubuntu/Debian)","Url":"https://proton.me/download/mail/linux/1.9.0/ProtonMail-desktop-beta.deb","Sha512CheckSum":"b43abcf864e6296d112231cf262c8c4cac82f4b1c54cb5ba06ebb63bf032a150fd5d97d4343b9037a9694e86cb2d26d8ed1d7741668a0a3e7e123fa9cc847c75"},{"Identifier":".rpm (Fedora/RHEL)","Url":"https://proton.me/download/mail/linux/1.9.0/ProtonMail-desktop-beta.rpm","Sha512CheckSum":"760d3b6aafbd314d1256e8bed9da345fe4aab89ba6cf996b9fa547d607031d26dd7d389ed30af922ce9a3951236f19ec35a837df25ee43bd54f6e1670010b5c3"}],"ReleaseNotes":[],"RolloutProportion":0.1,"ManualUpdate":["0.9.0"]}
+[2026-04-07 12:45:44.057] [info]  (update)       Skipping update: no newer version available. local: {"Version":"1.12.1","RolloutProportion":0.9802629663653208,"CategoryName":"Stable"} remote: {"CategoryName":"Stable","Version":"1.8.1","ReleaseDate":"2025-07-17","File":[{"Identifier":".deb (Ubuntu/Debian)","Url":"https://proton.me/download/mail/linux/1.8.1/ProtonMail-desktop-beta.deb","Sha512CheckSum":"31635456313c2fb4d41172eeaffe779484cb690fcd70cab56ded52064017bef227ea25ed98d9fc7f602200b97b04532b344c35081dfb3a847720f510101b8939"},{"Identifier":".rpm (Fedora/RHEL)","Url":"https://proton.me/download/mail/linux/1.8.1/ProtonMail-desktop-beta.rpm","Sha512CheckSum":"674f79bf272debd27e8aa7d6c7dcc4891d8bbdeb911462b9f63939e0571e681341d017561ed4f22b02d1c73c29bcda5c9c59293802e858cbea7423f2038f580a"}],"ReleaseNotes":[],"RolloutProportion":1,"ManualUpdate":["0.9.0"]}
+[2026-04-07 12:45:44.058] [info]  (update)       Skipping update: no newer version available. local: {"Version":"1.12.1","RolloutProportion":0.9802629663653208,"CategoryName":"Stable"} remote: {"CategoryName":"Stable","Version":"1.8.0","ReleaseDate":"2025-03-06","File":[{"Identifier":".deb (Ubuntu/Debian)","Url":"https://proton.me/download/mail/linux/1.8.0/ProtonMail-desktop-beta.deb","Sha512CheckSum":"3267112cc06dc001ac59531abd84bd89a0c44ff0314ad53db2f5eb32de8f2f482ab02241a20682c08ace6cb65c13a74bb12cb77777889e240c3ed6bc64055112"},{"Identifier":".rpm (Fedore/RHEL)","Url":"https://proton.me/download/mail/linux/1.8.0/ProtonMail-desktop-beta.rpm","Sha512CheckSum":"dc869195ccdc23aec3420e042a926151da3dd3c57e3b357665335d3c8c30f14617b69c0020ea040111d04c77e59b2cd4961256882955de44403c4e06a2b0b894"}],"ReleaseNotes":[],"RolloutProportion":1,"ManualUpdate":["0.9.0"]}
+[2026-04-07 12:45:44.059] [info]  (update)       Skipping update: no newer version available. local: {"Version":"1.12.1","RolloutProportion":0.9802629663653208,"CategoryName":"Stable"} remote: {"CategoryName":"Stable","Version":"1.7.1","ReleaseDate":"2025-02-27","File":[{"Identifier":".deb (Ubuntu/Debian)","Url":"https://proton.me/download/mail/linux/1.7.1/ProtonMail-desktop-beta.deb","Sha512CheckSum":"42051de5e8045c190752f248fa84263f594b0e9a4e553f8c1ac989a513d2ad521c46632de424f0bbebce1ecd9bbb7c136c3da40bd8feae1819957e5c463616fb"},{"Identifier":".rpm (Fedore/RHEL)","Url":"https://proton.me/download/mail/linux/1.7.1/ProtonMail-desktop-beta.rpm","Sha512CheckSum":"49f26a2964af98287e38c69ae43ebd5e832b34098d853cc13f8f68c372f755a3210141d3230a8b4a6406447898a5a17f3c832f37bdd9ad3f9ef4171862b08bfe"}],"ReleaseNotes":[],"RolloutProportion":1,"ManualUpdate":["0.9.0"]}
+[2026-04-07 12:45:44.059] [info]  (update)       Skipping update: no newer version available. local: {"Version":"1.12.1","RolloutProportion":0.9802629663653208,"CategoryName":"Stable"} remote: {"CategoryName":"Stable","Version":"1.6.1","ReleaseDate":"2024-12-12","File":[{"Identifier":".deb (Ubuntu/Debian)","Url":"https://proton.me/download/mail/linux/1.6.1/ProtonMail-desktop-beta.deb","Sha512CheckSum":"fde65a33be182907cc104a5875f2ed2a2fee9621f35d36208ff8e13f7a0118d4a3cdf430308880613096e4e21461a559cd9433f566360eb0f565e14cacf18bc5"},{"Identifier":".rpm (Fedore/RHEL)","Url":"https://proton.me/download/mail/linux/1.6.1/ProtonMail-desktop-beta.rpm","Sha512CheckSum":"8ed5b419dd4f6c3a3a275bffb77a8847cd3c049bdcfc18878b982223fd484ddfa242972cc6a73fb72bbddb08874d8a15d0c16bd63a9e121c724eedf052288fbb"}],"ReleaseNotes":[],"RolloutProportion":1,"ManualUpdate":["0.9.0"]}
+[2026-04-07 12:45:44.060] [info]  (update)       Skipping update: no newer version available. local: {"Version":"1.12.1","RolloutProportion":0.9802629663653208,"CategoryName":"Stable"} remote: {"CategoryName":"Stable","Version":"1.6.0","ReleaseDate":"2024-12-06","File":[{"Identifier":".deb (Ubuntu/Debian)","Url":"https://proton.me/download/mail/linux/1.6.0/ProtonMail-desktop-beta.deb","Sha512CheckSum":"7a7b2e93b29c1c9f3ddc44bf7b078b6260c79d981a557581f11bb2677a8317264dcb2e664cb7e4a4d9259872cf6bae5d60b94f9ae6ce3655b9be40b03f78155e"},{"Identifier":".rpm (Fedore/RHEL)","Url":"https://proton.me/download/mail/linux/1.6.0/ProtonMail-desktop-beta.rpm","Sha512CheckSum":"16a37459e008c5cdb8a325fd76b353fc85123a4880ab06e4f44982b48dbdf753e392e06b282cf114f24a840ec3d54e4b86290a27600b311f8e12c92c7bd1226e"}],"ReleaseNotes":[],"RolloutProportion":1,"ManualUpdate":["0.9.0"]}
+[2026-04-07 12:45:44.060] [info]  (update)       Skipping update: no newer version available. local: {"Version":"1.12.1","RolloutProportion":0.9802629663653208,"CategoryName":"Stable"} remote: {"CategoryName":"Stable","Version":"1.5.1","ReleaseDate":"2024-11-27","File":[{"Identifier":".deb (Ubuntu/Debian)","Url":"https://proton.me/download/mail/linux/1.5.1/ProtonMail-desktop-beta.deb","Sha512CheckSum":"c0d60eb309170aedcc772e10ca4de73cc6fb057eaf510cc5cba996260bcdd57fd7db8f503fc2b77b40c93a411cc19848727554381a9520470a0d5119c267d6da"},{"Identifier":".rpm (Fedore/RHEL)","Url":"https://proton.me/download/mail/linux/1.5.1/ProtonMail-desktop-beta.rpm","Sha512CheckSum":"546d64484e5b06a551da88540c4ddf73a9b19f8fe88dc72ddc779e23b6094ca571593d81ebcdfc5228e3f426832f870301f48af2db6ee774bc681441a27ea651"}],"ReleaseNotes":[],"RolloutProportion":1,"ManualUpdate":["0.9.0"]}
+[2026-04-07 12:45:44.061] [info]  (update)       Skipping update: no newer version available. local: {"Version":"1.12.1","RolloutProportion":0.9802629663653208,"CategoryName":"Stable"} remote: {"CategoryName":"Stable","Version":"1.4.0","ReleaseDate":"2024-11-20","File":[{"Identifier":".deb (Ubuntu/Debian)","Url":"https://proton.me/download/mail/linux/1.4.0/ProtonMail-desktop-beta.deb","Sha512CheckSum":"4e1777fd84c70e63bfb5330bc5d13bfe56d07d0544ec426d8a6d037b80568b41ec7c7055f43634e09d3bf9c3212fc7ccd730703e51c065643c2c4ceb1ad6b582"},{"Identifier":".rpm (Fedore/RHEL)","Url":"https://proton.me/download/mail/linux/1.4.0/ProtonMail-desktop-beta.rpm","Sha512CheckSum":"847f564a1c292957175b4b9f114438e2f9edf2ee9f9c7a22121375797926c9372f5b1e4e13ff01b202fd4d09f1f7c25512da2b5c2f6a4a6ac3a8777ac83f78a8"}],"ReleaseNotes":[],"RolloutProportion":1,"ManualUpdate":["0.9.0"]}
+[2026-04-07 12:45:44.062] [info]  (update)       Skipping update: no newer version available. local: {"Version":"1.12.1","RolloutProportion":0.9802629663653208,"CategoryName":"Stable"} remote: {"CategoryName":"Stable","Version":"1.3.2","ReleaseDate":"2024-11-12","File":[{"Identifier":".deb (Ubuntu/Debian)","Url":"https://proton.me/download/mail/linux/1.3.2/ProtonMail-desktop-beta.deb","Sha512CheckSum":"d978d748f4b3b3e08fb6e962c110dd66868fddfc657c96018c1c808b7d00c4aa01430d7266ee7a966b8fe71322f2914bff179e9258b477a5d56cc5be01d738ad"},{"Identifier":".rpm (Fedore/RHEL)","Url":"https://proton.me/download/mail/linux/1.3.2/ProtonMail-desktop-beta.rpm","Sha512CheckSum":"10cf5ea806b8398312dc2a0a6eb218c5262d4c2c5555503feb094ff2d838270e01eb5862729a709fb86cfcc33bff17447119dd0c534cf697aa179fb8e4d05ac1"}],"ReleaseNotes":[],"RolloutProportion":1,"ManualUpdate":["0.9.0"]}
+[2026-04-07 12:45:44.062] [info]  (update)       Skipping update: no newer version available. local: {"Version":"1.12.1","RolloutProportion":0.9802629663653208,"CategoryName":"Stable"} remote: {"CategoryName":"Stable","Version":"1.2.4","ReleaseDate":"2024-10-02","File":[{"Identifier":".deb (Ubuntu/Debian)","Url":"https://proton.me/download/mail/linux/1.2.4/ProtonMail-desktop-beta.deb","Sha512CheckSum":"a439906d06d6b46505bae017d3152ae2341e3c0ef3588037323484b29238f6be282af4c0da1779142c10b1a210bbd0480e35e15b0b754e9b7868bba6d00e6d0a"},{"Identifier":".rpm (Fedore/RHEL)","Url":"https://proton.me/download/mail/linux/1.2.4/ProtonMail-desktop-beta.rpm","Sha512CheckSum":"1e63ea89ecb3ddcf535eb0f25c0e53bb5d9aaf5d38535785a97143091544f3aac2a42d4f7556516d7c03457edcfe26556b4f65a98355032799d43a314bc80628"}],"ReleaseNotes":[],"RolloutProportion":1,"ManualUpdate":["0.9.0"]}
+[2026-04-07 12:45:44.063] [info]  (update)       Skipping update: no newer version available. local: {"Version":"1.12.1","RolloutProportion":0.9802629663653208,"CategoryName":"Stable"} remote: {"CategoryName":"Stable","Version":"1.1.2","ReleaseDate":"2024-09-17","File":[{"Identifier":".deb (Ubuntu/Debian)","Url":"https://proton.me/download/mail/linux/1.1.2/ProtonMail-desktop-beta.deb","Sha512CheckSum":"ce5568970c64da64a4bfe8cd88c2c42dc2edf7d1d502e0c0150eb9cd64ebad6faf3b5269ed942a7a64c398006fda738b55656e9a69aa7a6b15233d9b497a11d2"},{"Identifier":".rpm (Fedore/RHEL)","Url":"https://proton.me/download/mail/linux/1.1.2/ProtonMail-desktop-beta.rpm","Sha512CheckSum":"36e0484ecf6f10a33f21d4333c6472d18ede15f3d5d5fab8afc4ce9d84d48226a930056c1fee1ce069523c4a6b1c9f2496bc1fa1d2538e05a8577a098e6185e6"}],"ReleaseNotes":[],"RolloutProportion":1,"ManualUpdate":["0.9.0"]}
+[2026-04-07 12:45:44.063] [info]  (update)       Skipping update: no newer version available. local: {"Version":"1.12.1","RolloutProportion":0.9802629663653208,"CategoryName":"Stable"} remote: {"CategoryName":"Stable","Version":"1.1.0","ReleaseDate":"2024-09-03","File":[{"Identifier":".deb (Ubuntu/Debian)","Url":"https://proton.me/download/mail/linux/1.1.0/ProtonMail-desktop-beta.deb","Sha512CheckSum":"efa5fca38fc76cbd13ae2b153c1eff9d233b62be5b4ccec5647cff57c055a1975176219255eebe3f0e8cc1df3933cbd807aa41c99e3ba24e35ce24d6145d2953"},{"Identifier":".rpm (Fedore/RHEL)","Url":"https://proton.me/download/mail/linux/1.1.0/ProtonMail-desktop-beta.rpm","Sha512CheckSum":"c7871b1a1421ccb2a5ce808196f9ed996af9a408066b8d8d79f3852f29e4c0a0063ce89a86d5b9683fea38392bb94eed1ddac73ce4b2bbd6d7f799b1894e82b4"}],"ReleaseNotes":[],"RolloutProportion":1,"ManualUpdate":["0.9.0"]}
+[2026-04-07 12:45:44.064] [info]  (update)       Skipping update: no newer version available. local: {"Version":"1.12.1","RolloutProportion":0.9802629663653208,"CategoryName":"Stable"} remote: {"CategoryName":"Stable","Version":"1.0.6","ReleaseDate":"2024-08-01","File":[{"Identifier":".deb (Ubuntu/Debian)","Url":"https://proton.me/download/mail/linux/ProtonMail-desktop-beta.deb","Sha512CheckSum":"fb51c0cd2124188ec40ba38c863933905a26a7457e8738048865ed4a43feb6afb30df8f20924eccfaca9e69e17f0b63960fc2e986edaaf714906d56534b8b462"},{"Identifier":".rpm (Fedore/RHEL)","Url":"https://proton.me/download/mail/linux/ProtonMail-desktop-beta.rpm","Sha512CheckSum":"ac294dabfd3150c26acf46d9988942778076191d4b1b100798de06d6fbaececa87083d72c6e717259969250a711ef7559e20cb6d862b890244cc34d917b86e6e"}],"ReleaseNotes":[],"RolloutProportion":1,"ManualUpdate":["0.9.0"]}
+[2026-04-07 12:45:44.065] [info]  (update)       Skipping update: no newer version available. local: {"Version":"1.12.1","RolloutProportion":0.9802629663653208,"CategoryName":"Stable"} remote: {"CategoryName":"Stable","Version":"1.0.5","ReleaseDate":"2024-07-09","File":[{"Identifier":".deb (Ubuntu/Debian)","Url":"https://proton.me/download/mail/linux/ProtonMail-desktop-beta.deb","Sha512CheckSum":"108e434004b323d63f3240f86f8c6e13d0e42d09a59846a8d04b44914927985e93e68ca11ca110581186fc663b28e5eec6d3b49751c0eca9e04f0dea3cf753b3"},{"Identifier":".rpm (Fedore/RHEL)","Url":"https://proton.me/download/mail/linux/ProtonMail-desktop-beta.rpm","Sha512CheckSum":"00a2742aa487b3b08ab15502895b967272d6096ccc442087cb8d4be11b6842fac5856746ad2dfe45f99f229fbfa3d59b2b8c105e61ed86f8d75e80d160527212"}],"ReleaseNotes":[],"RolloutProportion":1,"ManualUpdate":["0.9.0"]}
+[2026-04-07 12:45:44.123] [info]  (mail)         did-navigate https://mail.proton.me/
+[2026-04-07 12:45:44.125] [debug] (mail)         did-navigate set zoom factor to 1
+[2026-04-07 12:45:44.261] [info]  (main)         update window bounds {"x":360,"y":90,"width":1200,"height":900,"maximized":false,"zoom":1}
+[2026-04-07 12:45:45.122] [debug] (mail)         did-finish-load https://mail.proton.me/
+[2026-04-07 12:45:45.124] [verbose] (mail)         updating view bounds {"x":0,"y":0,"width":1200,"height":900}
+[2026-04-07 12:45:45.125] [info]  (mail)         showView showing view for 
+[2026-04-07 12:45:45.229] [info]  (preload)      Sending message: setTheme
+[2026-04-07 12:45:45.240] [info]  (preload)      Sending message: storeAppVersion
+[2026-04-07 12:45:45.243] [info]  (utils)        Application loaded: proton-mail@5.0.108.10
+[2026-04-07 12:45:45.244] [debug] (utils)        Current versions are: 1.12.1 (M 5.0.108.10)
+[2026-04-07 12:45:45.277] [info]  (mail)         will-navigate https://account.proton.me/__FORBIDDEN__?app=proton-mail&state=6JPa9bJmmw4fjiVUa3LpEe_7PrGd8_9IqoHC1YLkpLs&v=2&reason=session-expired&pv=3
+[2026-04-07 12:45:45.615] [error] (mail)         did-fail-load -3 
+[2026-04-07 12:45:45.645] [info]  (mail)         did-navigate https://account.proton.me/__FORBIDDEN__?app=proton-mail&state=6JPa9bJmmw4fjiVUa3LpEe_7PrGd8_9IqoHC1YLkpLs&v=2&reason=session-expired&pv=3
+[2026-04-07 12:45:45.646] [debug] (mail)         did-navigate set zoom factor to 1
+[2026-04-07 12:45:46.118] [info]  (preload)      Sending message: storeAppVersion
+[2026-04-07 12:45:46.120] [info]  (utils)        Application loaded: proton-account@5.0.362.1
+[2026-04-07 12:45:46.121] [debug] (utils)        Current versions are: 1.12.1 (M 5.0.108.10 / A 5.0.362.1)
+[2026-04-07 12:45:46.176] [info]  (preload)      Sending message: setTheme
+[2026-04-07 12:45:46.183] [info]  (mail)         did-navigate-in-page https://account.proton.me/mail
+[2026-04-07 12:45:46.238] [info]  (main)         update window bounds {"x":8,"y":45,"width":1903,"height":1026,"maximized":false,"zoom":1}
+[2026-04-07 12:45:46.574] [info]  (preload)      Sending message: metricsListenerChanged
+[2026-04-07 12:45:46.577] [debug] (main)         Metrics listener ready
+[2026-04-07 12:45:49.569] [info]  (main)         update window bounds {"x":0,"y":0,"width":1920,"height":1080,"maximized":false,"zoom":1}
+[2026-04-07 12:45:53.103] [debug] (main)         request-load-time average: 164ms deviation: 99ms max: 459ms count: 33
+[2026-04-07 12:46:13.103] [debug] (main)         request-load-time average: 200ms deviation: 0ms max: 200ms count: 1
+[2026-04-07 12:46:32.091] [info]  (preload)      Sending message: userLogin
+[2026-04-07 12:46:32.095] [info]  (calendar)     reset to blank
+[2026-04-07 12:46:32.104] [info]  (account)      reset to blank
+[2026-04-07 12:46:32.181] [error] (calendar)     did-fail-load -6 ERR_FILE_NOT_FOUND
+[2026-04-07 12:46:32.243] [warn]  (main)         unhandledRejection Error: ERR_FILE_NOT_FOUND (-6) loading 'file:///usr/lib/electron37/resources/loading.html?message=Loading%20Proton%20Calendar%E2%80%A6&color=%23C7C4C1&backgroundColor=white'
+    at rejectAndCleanup (node:electron/js2c/browser_init:2:79724)
+    at WebContents.finishListener (node:electron/js2c/browser_init:2:79886)
+    at WebContents.emit (node:events:519:28)
+    at e.emit (/usr/share/proton-mail/app.asar/.webpack/main/index.js:1:425521)
+[2026-04-07 12:46:32.264] [error] (account)      did-fail-load -6 ERR_FILE_NOT_FOUND
+[2026-04-07 12:46:32.315] [info]  (mail)         will-navigate https://mail.proton.me/login#selector=lmfzdegdsgmaahlcea25zsc3osao73lb&sk=DFn3DKN31vKRn3NWPkHrpSMeM5MT2WigW6VXV3Gwt14&v=2&state=6JPa9bJmmw4fjiVUa3LpEe_7PrGd8_9IqoHC1YLkpLs&p=1&pv=3&pt=default&source=0
+[2026-04-07 12:46:32.495] [info]  (mail)         did-navigate https://mail.proton.me/login#selector=lmfzdegdsgmaahlcea25zsc3osao73lb&sk=DFn3DKN31vKRn3NWPkHrpSMeM5MT2WigW6VXV3Gwt14&v=2&state=6JPa9bJmmw4fjiVUa3LpEe_7PrGd8_9IqoHC1YLkpLs&p=1&pv=3&pt=default&source=0
+[2026-04-07 12:46:32.498] [debug] (mail)         did-navigate set zoom factor to 1
+[2026-04-07 12:46:32.780] [info]  (preload)      Sending message: setTheme
+[2026-04-07 12:46:32.788] [info]  (preload)      Sending message: storeAppVersion
+[2026-04-07 12:46:32.790] [info]  (utils)        Application loaded: proton-mail@5.0.108.10
+[2026-04-07 12:46:32.791] [debug] (utils)        Current versions are: 1.12.1 (M 5.0.108.10 / A 5.0.362.1)
+[2026-04-07 12:46:33.104] [debug] (main)         request-load-time average: 61ms deviation: 126ms max: 392ms count: 8
+[2026-04-07 12:46:33.713] [info]  (mail)         did-navigate-in-page https://mail.proton.me/u/0/
+[2026-04-07 12:46:33.715] [info]  (main)         Rewriting URL to include local id https://calendar.proton.me/u/0/
+[2026-04-07 12:46:33.716] [info]  (calendar)     reset to home page https://calendar.proton.me/u/0/
+[2026-04-07 12:46:33.717] [error] (main)         getLocalID TypeError: Invalid URL
+    at new URL (node:internal/url:825:25)
+    at Ms (/usr/share/proton-mail/app.asar/.webpack/main/index.js:1:374222)
+    at hs (/usr/share/proton-mail/app.asar/.webpack/main/index.js:1:369261)
+    at ws (/usr/share/proton-mail/app.asar/.webpack/main/index.js:1:372097)
+[2026-04-07 12:46:33.721] [info]  (calendar)     loadURL from /usr/lib/electron37/resources/loading.html to https://calendar.proton.me/u/0/
+[2026-04-07 12:46:33.725] [info]  (account)      reset to blank
+[2026-04-07 12:46:33.753] [error] (account)      did-fail-load -6 ERR_FILE_NOT_FOUND
+[2026-04-07 12:46:33.787] [warn]  (main)         unhandledRejection Error: ERR_FILE_NOT_FOUND (-6) loading 'file:///usr/lib/electron37/resources/loading.html?message=Loading%20Proton%20Account%E2%80%A6&color=%23C7C4C1&backgroundColor=white'
+    at rejectAndCleanup (node:electron/js2c/browser_init:2:79724)
+    at WebContents.finishListener (node:electron/js2c/browser_init:2:79886)
+    at WebContents.emit (node:events:519:28)
+    at e.emit (/usr/share/proton-mail/app.asar/.webpack/main/index.js:1:425521)
+[2026-04-07 12:46:34.231] [info]  (calendar)     did-navigate https://calendar.proton.me/u/0/
+[2026-04-07 12:46:34.235] [debug] (calendar)     did-navigate set zoom factor to 1
+[2026-04-07 12:46:34.857] [debug] (calendar)     did-finish-load https://calendar.proton.me/u/0/
+[2026-04-07 12:46:34.887] [info]  (preload)      Sending message: setTheme
+[2026-04-07 12:46:34.896] [info]  (preload)      Sending message: storeAppVersion
+[2026-04-07 12:46:34.898] [info]  (utils)        Application loaded: proton-calendar@5.0.108.7
+[2026-04-07 12:46:34.899] [debug] (utils)        Current versions are: 1.12.1 (M 5.0.108.10 / A 5.0.362.1 / C 5.0.108.7)
+[2026-04-07 12:46:34.910] [info]  (calendar)     will-navigate https://account.proton.me/__FORBIDDEN__?app=proton-calendar&state=nrmxpAcm6HG9fYideHiUqgJSUJMWf7vyHV86mAZxOPE&v=2&u=0&reason=session-expired&pv=3
+[2026-04-07 12:46:34.935] [info]  (preload)      Sending message: earlyAccess
+[2026-04-07 12:46:34.938] [info]  (settings)     Updating release category undefined
+[2026-04-07 12:46:34.940] [info]  (preload)      Sending message: earlyAccess
+[2026-04-07 12:46:34.943] [info]  (settings)     Updating release category undefined
+[2026-04-07 12:46:34.944] [info]  (preload)      Sending message: earlyAccess
+[2026-04-07 12:46:34.947] [info]  (settings)     Updating release category undefined
+[2026-04-07 12:46:34.948] [info]  (preload)      Sending message: earlyAccess
+[2026-04-07 12:46:34.951] [info]  (settings)     Updating release category undefined
+[2026-04-07 12:46:34.952] [info]  (preload)      Sending message: earlyAccess
+[2026-04-07 12:46:34.954] [info]  (settings)     Updating release category undefined
+[2026-04-07 12:46:34.956] [info]  (preload)      Sending message: earlyAccess
+[2026-04-07 12:46:34.959] [info]  (settings)     Updating release category undefined
+[2026-04-07 12:46:34.961] [info]  (preload)      Sending message: earlyAccess
+[2026-04-07 12:46:34.964] [info]  (settings)     Updating release category undefined
+[2026-04-07 12:46:34.966] [info]  (preload)      Sending message: earlyAccess
+[2026-04-07 12:46:34.972] [info]  (settings)     Updating release category undefined
+[2026-04-07 12:46:34.974] [info]  (preload)      Sending message: earlyAccess
+[2026-04-07 12:46:34.977] [info]  (settings)     Updating release category undefined
+[2026-04-07 12:46:34.978] [info]  (preload)      Sending message: earlyAccess
+[2026-04-07 12:46:34.980] [info]  (settings)     Updating release category undefined
+[2026-04-07 12:46:34.982] [info]  (preload)      Sending message: earlyAccess
+[2026-04-07 12:46:34.984] [info]  (settings)     Updating release category undefined
+[2026-04-07 12:46:34.987] [info]  (preload)      Sending message: earlyAccess
+[2026-04-07 12:46:34.989] [info]  (settings)     Updating release category undefined
+[2026-04-07 12:46:34.992] [info]  (preload)      Sending message: earlyAccess
+[2026-04-07 12:46:34.994] [info]  (settings)     Updating release category undefined
+[2026-04-07 12:46:34.996] [info]  (preload)      Sending message: earlyAccess
+[2026-04-07 12:46:34.998] [info]  (settings)     Updating release category undefined
+[2026-04-07 12:46:35.000] [info]  (preload)      Sending message: earlyAccess
+[2026-04-07 12:46:35.003] [info]  (settings)     Updating release category undefined
+[2026-04-07 12:46:35.005] [info]  (preload)      Sending message: earlyAccess
+[2026-04-07 12:46:35.008] [info]  (settings)     Updating release category undefined
+[2026-04-07 12:46:35.011] [info]  (preload)      Sending message: earlyAccess
+[2026-04-07 12:46:35.012] [info]  (settings)     Updating release category undefined
+[2026-04-07 12:46:35.014] [info]  (preload)      Sending message: earlyAccess
+[2026-04-07 12:46:35.016] [info]  (settings)     Updating release category undefined
+[2026-04-07 12:46:35.017] [info]  (preload)      Sending message: earlyAccess
+[2026-04-07 12:46:35.019] [info]  (settings)     Updating release category undefined
+[2026-04-07 12:46:35.021] [info]  (preload)      Sending message: earlyAccess
+[2026-04-07 12:46:35.023] [info]  (settings)     Updating release category undefined
+[2026-04-07 12:46:35.024] [info]  (preload)      Sending message: earlyAccess
+[2026-04-07 12:46:35.027] [info]  (settings)     Updating release category undefined
+[2026-04-07 12:46:35.028] [info]  (preload)      Sending message: earlyAccess
+[2026-04-07 12:46:35.030] [info]  (settings)     Updating release category undefined
+[2026-04-07 12:46:35.032] [info]  (preload)      Sending message: earlyAccess
+[2026-04-07 12:46:35.034] [info]  (settings)     Updating release category undefined
+[2026-04-07 12:46:35.035] [info]  (preload)      Sending message: earlyAccess
+[2026-04-07 12:46:35.037] [info]  (settings)     Updating release category undefined
+[2026-04-07 12:46:35.039] [info]  (preload)      Sending message: earlyAccess
+[2026-04-07 12:46:35.041] [info]  (settings)     Updating release category undefined
+[2026-04-07 12:46:35.042] [info]  (preload)      Sending message: earlyAccess
+[2026-04-07 12:46:35.044] [info]  (settings)     Updating release category undefined
+[2026-04-07 12:46:35.046] [info]  (preload)      Sending message: earlyAccess
+[2026-04-07 12:46:35.048] [info]  (settings)     Updating release category undefined
+[2026-04-07 12:46:35.050] [info]  (preload)      Sending message: earlyAccess
+[2026-04-07 12:46:35.054] [info]  (settings)     Updating release category undefined
+[2026-04-07 12:46:35.055] [info]  (preload)      Sending message: earlyAccess
+[2026-04-07 12:46:35.059] [info]  (settings)     Updating release category undefined
+[2026-04-07 12:46:35.060] [info]  (preload)      Sending message: earlyAccess
+[2026-04-07 12:46:35.063] [info]  (settings)     Updating release category undefined
+[2026-04-07 12:46:35.064] [info]  (preload)      Sending message: earlyAccess
+[2026-04-07 12:46:35.067] [info]  (settings)     Updating release category undefined
+[2026-04-07 12:46:35.070] [info]  (calendar)     did-navigate https://account.proton.me/__FORBIDDEN__?app=proton-calendar&state=nrmxpAcm6HG9fYideHiUqgJSUJMWf7vyHV86mAZxOPE&v=2&u=0&reason=session-expired&pv=3
+[2026-04-07 12:46:35.071] [debug] (calendar)     did-navigate set zoom factor to 1
+[2026-04-07 12:46:35.068] [info]  (preload)      Sending message: earlyAccess
+[2026-04-07 12:46:35.075] [info]  (settings)     Updating release category undefined
+[2026-04-07 12:46:35.076] [info]  (preload)      Sending message: earlyAccess
+[2026-04-07 12:46:35.079] [info]  (settings)     Updating release category undefined
+[2026-04-07 12:46:35.081] [info]  (preload)      Sending message: earlyAccess
+[2026-04-07 12:46:35.083] [info]  (settings)     Updating release category undefined
+[2026-04-07 12:46:35.085] [info]  (preload)      Sending message: earlyAccess
+[2026-04-07 12:46:35.088] [info]  (settings)     Updating release category undefined
+[2026-04-07 12:46:35.090] [info]  (preload)      Sending message: earlyAccess
+[2026-04-07 12:46:35.095] [info]  (settings)     Updating release category undefined
+[2026-04-07 12:46:35.096] [info]  (preload)      Sending message: earlyAccess
+[2026-04-07 12:46:35.099] [info]  (settings)     Updating release category undefined
+[2026-04-07 12:46:35.100] [info]  (preload)      Sending message: earlyAccess
+[2026-04-07 12:46:35.103] [info]  (settings)     Updating release category undefined
+[2026-04-07 12:46:35.106] [info]  (preload)      Sending message: earlyAccess
+[2026-04-07 12:46:35.108] [info]  (settings)     Updating release category undefined
+[2026-04-07 12:46:35.112] [info]  (preload)      Sending message: earlyAccess
+[2026-04-07 12:46:35.116] [info]  (settings)     Updating release category undefined
+[2026-04-07 12:46:35.118] [info]  (preload)      Sending message: earlyAccess
+[2026-04-07 12:46:35.123] [info]  (settings)     Updating release category undefined
+[2026-04-07 12:46:35.126] [info]  (preload)      Sending message: earlyAccess
+[2026-04-07 12:46:35.129] [info]  (settings)     Updating release category undefined
+[2026-04-07 12:46:35.131] [info]  (preload)      Sending message: earlyAccess
+[2026-04-07 12:46:35.134] [info]  (settings)     Updating release category undefined
+[2026-04-07 12:46:35.136] [info]  (preload)      Sending message: earlyAccess
+[2026-04-07 12:46:35.139] [info]  (settings)     Updating release category undefined
+[2026-04-07 12:46:35.141] [info]  (preload)      Sending message: earlyAccess
+[2026-04-07 12:46:35.143] [info]  (settings)     Updating release category undefined
+[2026-04-07 12:46:35.146] [info]  (preload)      Sending message: earlyAccess
+[2026-04-07 12:46:35.148] [info]  (settings)     Updating release category undefined
+[2026-04-07 12:46:35.150] [info]  (preload)      Sending message: earlyAccess
+[2026-04-07 12:46:35.152] [info]  (settings)     Updating release category undefined
+[2026-04-07 12:46:35.153] [info]  (preload)      Sending message: earlyAccess
+[2026-04-07 12:46:35.155] [info]  (settings)     Updating release category undefined
+[2026-04-07 12:46:35.157] [info]  (preload)      Sending message: earlyAccess
+[2026-04-07 12:46:35.159] [info]  (settings)     Updating release category undefined
+[2026-04-07 12:46:35.161] [info]  (preload)      Sending message: earlyAccess
+[2026-04-07 12:46:35.163] [info]  (settings)     Updating release category undefined
+[2026-04-07 12:46:35.164] [info]  (preload)      Sending message: earlyAccess
+[2026-04-07 12:46:35.166] [info]  (settings)     Updating release category undefined
+[2026-04-07 12:46:35.168] [info]  (preload)      Sending message: earlyAccess
+[2026-04-07 12:46:35.170] [info]  (settings)     Updating release category undefined
+[2026-04-07 12:46:35.172] [info]  (preload)      Sending message: earlyAccess
+[2026-04-07 12:46:35.174] [info]  (settings)     Updating release category undefined
+[2026-04-07 12:46:35.176] [info]  (preload)      Sending message: earlyAccess
+[2026-04-07 12:46:35.178] [info]  (settings)     Updating release category undefined
+[2026-04-07 12:46:35.180] [info]  (preload)      Sending message: earlyAccess
+[2026-04-07 12:46:35.183] [info]  (settings)     Updating release category undefined
+[2026-04-07 12:46:35.184] [info]  (preload)      Sending message: earlyAccess
+[2026-04-07 12:46:35.186] [info]  (settings)     Updating release category undefined
+[2026-04-07 12:46:35.188] [info]  (preload)      Sending message: earlyAccess
+[2026-04-07 12:46:35.190] [info]  (settings)     Updating release category undefined
+[2026-04-07 12:46:35.192] [info]  (preload)      Sending message: earlyAccess
+[2026-04-07 12:46:35.195] [info]  (settings)     Updating release category undefined
+[2026-04-07 12:46:35.198] [info]  (mail)         did-navigate-in-page https://mail.proton.me/u/0/inbox
+[2026-04-07 12:46:35.200] [info]  (main)         Rewriting URL to include local id https://calendar.proton.me/u/0/
+[2026-04-07 12:46:35.202] [info]  (calendar)     reset to home page https://calendar.proton.me/u/0/
+[2026-04-07 12:46:35.204] [info]  (calendar)     loadURL from https://account.proton.me/__FORBIDDEN__?app=proton-calendar&state=nrmxpAcm6HG9fYideHiUqgJSUJMWf7vyHV86mAZxOPE&v=2&u=0&reason=session-expired&pv=3 to https://calendar.proton.me/u/0/
+[2026-04-07 12:46:35.206] [info]  (account)      reset to blank
+[2026-04-07 12:46:35.214] [debug] (calendar)     did-finish-load https://calendar.proton.me/u/0/
+[2026-04-07 12:46:35.206] [info]  (preload)      Sending message: updateNotification
+[2026-04-07 12:46:35.219] [info]  (ipc)          Update badge value 0
+[2026-04-07 12:46:35.220] [info]  (ipc)          Reset badge value
+[2026-04-07 12:46:35.232] [error] (account)      did-fail-load -6 ERR_FILE_NOT_FOUND
+[2026-04-07 12:46:35.250] [warn]  (main)         unhandledRejection Error: ERR_FILE_NOT_FOUND (-6) loading 'file:///usr/lib/electron37/resources/loading.html?message=Loading%20Proton%20Account%E2%80%A6&color=%23C7C4C1&backgroundColor=white'
+    at rejectAndCleanup (node:electron/js2c/browser_init:2:79724)
+    at WebContents.finishListener (node:electron/js2c/browser_init:2:79886)
+    at WebContents.emit (node:events:519:28)
+    at e.emit (/usr/share/proton-mail/app.asar/.webpack/main/index.js:1:425521)
+[2026-04-07 12:46:35.278] [info]  (preload)      Sending message: earlyAccess
+[2026-04-07 12:46:35.280] [info]  (settings)     Updating release category undefined
+[2026-04-07 12:46:35.294] [info]  (preload)      Sending message: checkDailyStatsAndSignal
+[2026-04-07 12:46:35.296] [debug] (protocol)     Checking default mailto
+[2026-04-07 12:46:35.331] [info]  (protocol)     App default mailto client status {
+  isDefault: true,
+  wasChecked: true,
+  shouldBeDefault: true,
+  wasDefaultInPast: true,
+  canUpdateDefault: true,
+  lastReport: { wasDefault: false, timestamp: 0 }
+}
+[2026-04-07 12:46:35.337] [info]  (preload)      Sending message: metricsListenerChanged
+[2026-04-07 12:46:35.342] [debug] (main)         Metrics listener ready
+[2026-04-07 12:46:35.348] [info]  (calendar)     did-navigate https://calendar.proton.me/u/0/
+[2026-04-07 12:46:35.349] [debug] (calendar)     did-navigate set zoom factor to 1
+[2026-04-07 12:46:35.483] [info]  (preload)      Sending message: setTheme
+[2026-04-07 12:46:35.488] [info]  (preload)      Sending message: storeAppVersion
+[2026-04-07 12:46:35.490] [info]  (utils)        Application loaded: proton-calendar@5.0.108.7
+[2026-04-07 12:46:35.491] [debug] (utils)        Current versions are: 1.12.1 (M 5.0.108.10 / A 5.0.362.1 / C 5.0.108.7)
+[2026-04-07 12:46:35.498] [info]  (calendar)     will-navigate https://account.proton.me/__FORBIDDEN__?app=proton-calendar&state=ESl6cgDil5ZlJZdGv9Q4wvpwYxgVjH0zurYteqdO2ys&v=2&u=0&reason=session-expired&pv=3
+[2026-04-07 12:46:35.603] [info]  (calendar)     did-navigate https://account.proton.me/__FORBIDDEN__?app=proton-calendar&state=ESl6cgDil5ZlJZdGv9Q4wvpwYxgVjH0zurYteqdO2ys&v=2&u=0&reason=session-expired&pv=3
+[2026-04-07 12:46:35.605] [debug] (calendar)     did-navigate set zoom factor to 1
+[2026-04-07 12:46:35.952] [info]  (preload)      Sending message: storeAppVersion
+[2026-04-07 12:46:35.960] [info]  (utils)        Application loaded: proton-account@5.0.362.1
+[2026-04-07 12:46:35.964] [debug] (utils)        Current versions are: 1.12.1 (M 5.0.108.10 / A 5.0.362.1 / C 5.0.108.7)
+[2026-04-07 12:46:36.035] [info]  (preload)      Sending message: setTheme
+[2026-04-07 12:46:36.204] [info]  (preload)      Sending message: dailyStatsReported
+[2026-04-07 12:46:36.491] [info]  (calendar)     will-navigate https://calendar.proton.me/login#selector=7axybam7axkyikle4a6lezll7pbtjyna&sk=5S2QTe3CCZ8OOUFNZULxSvC6YFbYcdIGh1qKt1z-jeo&v=2&state=ESl6cgDil5ZlJZdGv9Q4wvpwYxgVjH0zurYteqdO2ys&p=1&pv=3&pt=default&source=0
+[2026-04-07 12:46:36.633] [info]  (calendar)     did-navigate https://calendar.proton.me/login#selector=7axybam7axkyikle4a6lezll7pbtjyna&sk=5S2QTe3CCZ8OOUFNZULxSvC6YFbYcdIGh1qKt1z-jeo&v=2&state=ESl6cgDil5ZlJZdGv9Q4wvpwYxgVjH0zurYteqdO2ys&p=1&pv=3&pt=default&source=0
+[2026-04-07 12:46:36.642] [debug] (calendar)     did-navigate set zoom factor to 1
+[2026-04-07 12:46:36.815] [info]  (preload)      Sending message: setTheme
+[2026-04-07 12:46:36.824] [info]  (preload)      Sending message: storeAppVersion
+[2026-04-07 12:46:36.828] [info]  (utils)        Application loaded: proton-calendar@5.0.108.7
+[2026-04-07 12:46:36.831] [debug] (utils)        Current versions are: 1.12.1 (M 5.0.108.10 / A 5.0.362.1 / C 5.0.108.7)
+[2026-04-07 12:46:37.345] [info]  (preload)      Sending message: earlyAccess
+[2026-04-07 12:46:37.348] [info]  (settings)     Updating release category undefined
+[2026-04-07 12:46:37.351] [info]  (preload)      Sending message: earlyAccess
+[2026-04-07 12:46:37.355] [info]  (settings)     Updating release category undefined
+[2026-04-07 12:46:37.358] [info]  (preload)      Sending message: earlyAccess
+[2026-04-07 12:46:37.362] [info]  (settings)     Updating release category undefined
+[2026-04-07 12:46:37.365] [info]  (preload)      Sending message: earlyAccess
+[2026-04-07 12:46:37.370] [info]  (settings)     Updating release category undefined
+[2026-04-07 12:46:37.714] [info]  (preload)      Sending message: updateNotification
+[2026-04-07 12:46:37.716] [info]  (ipc)          Update badge value 4
+[2026-04-07 12:46:37.990] [info]  (preload)      Sending message: earlyAccess
+[2026-04-07 12:46:37.992] [info]  (settings)     Updating release category undefined
+[2026-04-07 12:46:37.996] [info]  (preload)      Sending message: toggleAppCache
+[2026-04-07 12:46:38.606] [info]  (calendar)     did-navigate-in-page https://calendar.proton.me/u/0/
+[2026-04-07 12:46:39.529] [info]  (preload)      Sending message: earlyAccess
+[2026-04-07 12:46:39.531] [info]  (settings)     Updating release category undefined
+[2026-04-07 12:46:39.533] [info]  (preload)      Sending message: earlyAccess
+[2026-04-07 12:46:39.535] [info]  (settings)     Updating release category undefined
+[2026-04-07 12:46:39.536] [info]  (preload)      Sending message: earlyAccess
+[2026-04-07 12:46:39.538] [info]  (settings)     Updating release category undefined
+[2026-04-07 12:46:39.540] [info]  (preload)      Sending message: earlyAccess
+[2026-04-07 12:46:39.543] [info]  (settings)     Updating release category undefined
+[2026-04-07 12:46:39.545] [info]  (preload)      Sending message: earlyAccess
+[2026-04-07 12:46:39.547] [info]  (settings)     Updating release category undefined
+[2026-04-07 12:46:39.548] [info]  (preload)      Sending message: earlyAccess
+[2026-04-07 12:46:39.550] [info]  (settings)     Updating release category undefined
+[2026-04-07 12:46:39.552] [info]  (preload)      Sending message: earlyAccess
+[2026-04-07 12:46:39.554] [info]  (settings)     Updating release category undefined
+[2026-04-07 12:46:39.737] [info]  (preload)      Sending message: earlyAccess
+[2026-04-07 12:46:39.740] [info]  (settings)     Updating release category undefined
+[2026-04-07 12:46:43.104] [debug] (main)         request-load-time average: 134ms deviation: 291ms max: 2109ms count: 54
+[2026-04-07 12:46:43.185] [debug] (flag-manager) Checking flags
+[2026-04-07 12:46:43.202] [debug] (flag-manager) Feature flags saved to cache
+[2026-04-07 12:46:53.105] [debug] (main)         request-load-time average: 144ms deviation: 43ms max: 199ms count: 4
+[2026-04-07 12:47:01.131] [info]  (preload)      Sending message: earlyAccess
+[2026-04-07 12:47:01.134] [info]  (settings)     Updating release category undefined
+[2026-04-07 12:47:05.858] [info]  (preload)      Sending message: setTheme
+[2026-04-07 12:47:05.861] [info]  (settings)     Settings saved {"theme":{"LightTheme":2,"DarkTheme":1,"Mode":2,"FontFace":0,"FontSize":0,"Features":0}}
+[2026-04-07 12:47:05.875] [info]  (calendar)     Reloading hidden view
+[2026-04-07 12:47:05.878] [info]  (calendar)     loadURL from https://calendar.proton.me/u/0/ to https://calendar.proton.me/u/0/
+[2026-04-07 12:47:05.879] [info]  (account)      Reloading hidden view
+[2026-04-07 12:47:05.881] [error] (main)         getLocalID TypeError: Invalid URL
+    at new URL (node:internal/url:825:25)
+    at Ms (/usr/share/proton-mail/app.asar/.webpack/main/index.js:1:374222)
+    at hs (/usr/share/proton-mail/app.asar/.webpack/main/index.js:1:369261)
+    at _s (/usr/share/proton-mail/app.asar/.webpack/main/index.js:1:371847)
+    at IpcMainImpl.<anonymous> (/usr/share/proton-mail/app.asar/.webpack/main/index.js:1:385808)
+    at IpcMainImpl.emit (node:events:519:28)
+    at Session.<anonymous> (node:electron/js2c/browser_init:2:106370)
+    at Session.emit (node:events:519:28)
+[2026-04-07 12:47:05.885] [error] (main)         getLocalID TypeError: Invalid URL
+    at new URL (node:internal/url:825:25)
+    at Ms (/usr/share/proton-mail/app.asar/.webpack/main/index.js:1:374222)
+    at hs (/usr/share/proton-mail/app.asar/.webpack/main/index.js:1:369269)
+    at _s (/usr/share/proton-mail/app.asar/.webpack/main/index.js:1:371847)
+    at IpcMainImpl.<anonymous> (/usr/share/proton-mail/app.asar/.webpack/main/index.js:1:385808)
+    at IpcMainImpl.emit (node:events:519:28)
+    at Session.<anonymous> (node:electron/js2c/browser_init:2:106370)
+    at Session.emit (node:events:519:28)
+[2026-04-07 12:47:05.890] [info]  (account)      loadURL from /usr/lib/electron37/resources/loading.html to /usr/lib/electron37/resources/loading.html
+[2026-04-07 12:47:05.893] [error] (account)      did-fail-load -300 ERR_INVALID_URL
+[2026-04-07 12:47:05.900] [error] (account)      did-fail-load /usr/lib/electron37/resources/loading.html -300 ERR_INVALID_URL
+[2026-04-07 12:47:05.958] [error] (account)      did-fail-load -6 ERR_FILE_NOT_FOUND
+[2026-04-07 12:47:05.994] [warn]  (main)         unhandledRejection Error: ERR_FILE_NOT_FOUND (-6) loading 'file:///usr/lib/electron37/resources/error-network.html?color=%23C7C4C1&backgroundColor=white&title=Cannot%20establish%20connection&description=Check%20your%20internet%20connection%20or%20network%20settings.%20If%20the%20issue%20persists%2C%20please%20contact%20customer%20support.&button=Try%20again&buttonTarget=https%3A%2F%2Faccount.proton.me'
+    at rejectAndCleanup (node:electron/js2c/browser_init:2:79724)
+    at WebContents.finishListener (node:electron/js2c/browser_init:2:79886)
+    at WebContents.emit (node:events:519:28)
+    at e.emit (/usr/share/proton-mail/app.asar/.webpack/main/index.js:1:425521)
+[2026-04-07 12:47:06.260] [info]  (calendar)     did-navigate https://calendar.proton.me/u/0/
+[2026-04-07 12:47:06.261] [debug] (calendar)     did-navigate set zoom factor to 1
+[2026-04-07 12:47:06.357] [debug] (calendar)     did-finish-load https://calendar.proton.me/u/0/
+[2026-04-07 12:47:06.373] [info]  (preload)      Sending message: setTheme
+[2026-04-07 12:47:06.376] [info]  (preload)      Sending message: storeAppVersion
+[2026-04-07 12:47:06.378] [info]  (utils)        Application loaded: proton-calendar@5.0.108.7
+[2026-04-07 12:47:06.378] [debug] (utils)        Current versions are: 1.12.1 (M 5.0.108.10 / A 5.0.362.1 / C 5.0.108.7)
+[2026-04-07 12:47:07.293] [info]  (preload)      Sending message: setTheme
+[2026-04-07 12:47:07.307] [info]  (settings)     Settings saved {"theme":{"LightTheme":2,"DarkTheme":1,"Mode":1,"FontFace":0,"FontSize":0,"Features":0}}
+[2026-04-07 12:47:07.325] [info]  (calendar)     Reloading hidden view
+[2026-04-07 12:47:07.327] [info]  (calendar)     loadURL from https://calendar.proton.me/u/0/ to https://calendar.proton.me/u/0/
+[2026-04-07 12:47:07.332] [info]  (account)      Reloading hidden view
+[2026-04-07 12:47:07.334] [error] (main)         getLocalID TypeError: Invalid URL
+    at new URL (node:internal/url:825:25)
+    at Ms (/usr/share/proton-mail/app.asar/.webpack/main/index.js:1:374222)
+    at hs (/usr/share/proton-mail/app.asar/.webpack/main/index.js:1:369261)
+    at _s (/usr/share/proton-mail/app.asar/.webpack/main/index.js:1:371847)
+    at IpcMainImpl.<anonymous> (/usr/share/proton-mail/app.asar/.webpack/main/index.js:1:385808)
+    at IpcMainImpl.emit (node:events:519:28)
+    at Session.<anonymous> (node:electron/js2c/browser_init:2:106370)
+    at Session.emit (node:events:519:28)
+[2026-04-07 12:47:07.339] [error] (main)         getLocalID TypeError: Invalid URL
+    at new URL (node:internal/url:825:25)
+    at Ms (/usr/share/proton-mail/app.asar/.webpack/main/index.js:1:374222)
+    at hs (/usr/share/proton-mail/app.asar/.webpack/main/index.js:1:369269)
+    at _s (/usr/share/proton-mail/app.asar/.webpack/main/index.js:1:371847)
+    at IpcMainImpl.<anonymous> (/usr/share/proton-mail/app.asar/.webpack/main/index.js:1:385808)
+    at IpcMainImpl.emit (node:events:519:28)
+    at Session.<anonymous> (node:electron/js2c/browser_init:2:106370)
+    at Session.emit (node:events:519:28)
+[2026-04-07 12:47:07.343] [info]  (account)      loadURL from /usr/lib/electron37/resources/error-network.html to /usr/lib/electron37/resources/error-network.html
+[2026-04-07 12:47:07.344] [error] (account)      did-fail-load -300 ERR_INVALID_URL
+[2026-04-07 12:47:07.347] [error] (account)      did-fail-load /usr/lib/electron37/resources/error-network.html -300 ERR_INVALID_URL
+[2026-04-07 12:47:07.399] [error] (account)      did-fail-load -6 ERR_FILE_NOT_FOUND
+[2026-04-07 12:47:07.432] [warn]  (main)         unhandledRejection Error: ERR_FILE_NOT_FOUND (-6) loading 'file:///usr/lib/electron37/resources/error-network.html?color=%237A6E80&backgroundColor=%2316141c&title=Cannot%20establish%20connection&description=Check%20your%20internet%20connection%20or%20network%20settings.%20If%20the%20issue%20persists%2C%20please%20contact%20customer%20support.&button=Try%20again&buttonTarget=https%3A%2F%2Faccount.proton.me'
+    at rejectAndCleanup (node:electron/js2c/browser_init:2:79724)
+    at WebContents.finishListener (node:electron/js2c/browser_init:2:79886)
+    at WebContents.emit (node:events:519:28)
+    at e.emit (/usr/share/proton-mail/app.asar/.webpack/main/index.js:1:425521)
+[2026-04-07 12:47:07.546] [info]  (preload)      Sending message: earlyAccess
+[2026-04-07 12:47:07.548] [info]  (settings)     Updating release category undefined
+[2026-04-07 12:47:07.553] [info]  (preload)      Sending message: earlyAccess
+[2026-04-07 12:47:07.557] [info]  (settings)     Updating release category undefined
+[2026-04-07 12:47:07.562] [info]  (preload)      Sending message: earlyAccess
+[2026-04-07 12:47:07.565] [info]  (settings)     Updating release category undefined
+[2026-04-07 12:47:07.568] [info]  (preload)      Sending message: earlyAccess
+[2026-04-07 12:47:07.572] [info]  (settings)     Updating release category undefined
+[2026-04-07 12:47:07.576] [info]  (preload)      Sending message: earlyAccess
+[2026-04-07 12:47:07.581] [info]  (settings)     Updating release category undefined
+[2026-04-07 12:47:07.586] [info]  (preload)      Sending message: earlyAccess
+[2026-04-07 12:47:07.589] [info]  (settings)     Updating release category undefined
+[2026-04-07 12:47:07.594] [info]  (preload)      Sending message: earlyAccess
+[2026-04-07 12:47:07.597] [info]  (settings)     Updating release category undefined
+[2026-04-07 12:47:07.845] [info]  (preload)      Sending message: setTheme
+[2026-04-07 12:47:07.967] [info]  (calendar)     did-navigate https://calendar.proton.me/u/0/
+[2026-04-07 12:47:07.968] [debug] (calendar)     did-navigate set zoom factor to 1
+[2026-04-07 12:47:08.060] [debug] (calendar)     did-finish-load https://calendar.proton.me/u/0/
+[2026-04-07 12:47:08.078] [info]  (preload)      Sending message: setTheme
+[2026-04-07 12:47:08.081] [info]  (preload)      Sending message: storeAppVersion
+[2026-04-07 12:47:08.083] [info]  (utils)        Application loaded: proton-calendar@5.0.108.7
+[2026-04-07 12:47:08.083] [debug] (utils)        Current versions are: 1.12.1 (M 5.0.108.10 / A 5.0.362.1 / C 5.0.108.7)
+[2026-04-07 12:47:08.718] [info]  (preload)      Sending message: earlyAccess
+[2026-04-07 12:47:08.720] [info]  (settings)     Updating release category undefined
+[2026-04-07 12:47:08.721] [info]  (preload)      Sending message: earlyAccess
+[2026-04-07 12:47:08.723] [info]  (settings)     Updating release category undefined
+[2026-04-07 12:47:08.725] [info]  (preload)      Sending message: earlyAccess
+[2026-04-07 12:47:08.727] [info]  (settings)     Updating release category undefined
+[2026-04-07 12:47:08.729] [info]  (preload)      Sending message: earlyAccess
+[2026-04-07 12:47:08.731] [info]  (settings)     Updating release category undefined
+[2026-04-07 12:47:08.732] [info]  (preload)      Sending message: earlyAccess
+[2026-04-07 12:47:08.734] [info]  (settings)     Updating release category undefined
+[2026-04-07 12:47:08.735] [info]  (preload)      Sending message: earlyAccess
+[2026-04-07 12:47:08.737] [info]  (settings)     Updating release category undefined
+[2026-04-07 12:47:08.739] [info]  (preload)      Sending message: earlyAccess
+[2026-04-07 12:47:08.740] [info]  (settings)     Updating release category undefined
+[2026-04-07 12:47:08.918] [info]  (preload)      Sending message: earlyAccess
+[2026-04-07 12:47:08.921] [info]  (settings)     Updating release category undefined
+[2026-04-07 12:47:13.105] [debug] (main)         request-load-time average: 32ms deviation: 37ms max: 152ms count: 35
+[2026-04-07 12:47:20.267] [info]  (mail)         did-navigate-in-page https://mail.proton.me/u/0/inbox/hOYca37RXdD61j92auPgFPGYwvpGbYDezEeKzVb5XSo2KRz964gYXceqfyiBnspN5AbGxQyFQbL7daEsqLVfGw==
+[2026-04-07 12:47:20.597] [info]  (preload)      Sending message: updateNotification
+[2026-04-07 12:47:20.601] [info]  (ipc)          Update badge value 3
+[2026-04-07 12:47:22.686] [info]  (preload)      Sending message: earlyAccess
+[2026-04-07 12:47:22.688] [info]  (settings)     Updating release category undefined
+[2026-04-07 12:47:22.691] [info]  (preload)      Sending message: earlyAccess
+[2026-04-07 12:47:22.694] [info]  (settings)     Updating release category undefined
+[2026-04-07 12:47:23.105] [debug] (main)         request-load-time average: 2172ms deviation: 97ms max: 2235ms count: 7
+[2026-04-07 12:47:31.420] [info]  (mail)         did-navigate-in-page https://mail.proton.me/u/0/inbox
+[2026-04-07 12:47:31.424] [info]  (main)         Rewriting URL to include local id https://calendar.proton.me/u/0/
+[2026-04-07 12:47:31.425] [info]  (calendar)     reset to home page https://calendar.proton.me/u/0/
+[2026-04-07 12:47:31.426] [info]  (calendar)     loadURL already in given url https://calendar.proton.me/u/0/
+[2026-04-07 12:47:31.427] [info]  (account)      reset to blank
+[2026-04-07 12:47:31.444] [error] (account)      did-fail-load -6 ERR_FILE_NOT_FOUND
+[2026-04-07 12:47:31.471] [warn]  (main)         unhandledRejection Error: ERR_FILE_NOT_FOUND (-6) loading 'file:///usr/lib/electron37/resources/loading.html?message=Loading%20Proton%20Account%E2%80%A6&color=%237A6E80&backgroundColor=%2316141c'
+    at rejectAndCleanup (node:electron/js2c/browser_init:2:79724)
+    at WebContents.finishListener (node:electron/js2c/browser_init:2:79886)
+    at WebContents.emit (node:events:519:28)
+    at e.emit (/usr/share/proton-mail/app.asar/.webpack/main/index.js:1:425521)
+[2026-04-07 12:47:32.833] [info]  (mail)         did-navigate-in-page https://mail.proton.me/u/0/inbox/S02mui9KkYIOCuVVKC3-PkE9LY3dxWf7RU-gKpWuAuhl2Ia5VeipzhFyNZsaVMC12l0XEaZUUmci5gZcZedr4Q==
+[2026-04-07 12:47:33.051] [info]  (preload)      Sending message: updateNotification
+[2026-04-07 12:47:33.055] [info]  (ipc)          Update badge value 2
+[2026-04-07 12:47:33.105] [debug] (main)         request-load-time average: 2564ms deviation: 120ms max: 2687ms count: 11
+[2026-04-07 12:47:33.304] [info]  (preload)      Sending message: earlyAccess
+[2026-04-07 12:47:33.309] [info]  (settings)     Updating release category undefined
+[2026-04-07 12:47:33.311] [info]  (preload)      Sending message: earlyAccess
+[2026-04-07 12:47:33.317] [info]  (settings)     Updating release category undefined
+[2026-04-07 12:47:43.106] [debug] (main)         request-load-time average: 117ms deviation: 0ms max: 117ms count: 1
+[2026-04-07 12:47:43.186] [debug] (flag-manager) Checking flags
+[2026-04-07 12:47:43.206] [debug] (flag-manager) Feature flags saved to cache
+[2026-04-07 12:47:43.890] [info]  (mail)         did-navigate-in-page https://mail.proton.me/u/0/inbox
+[2026-04-07 12:47:43.892] [info]  (main)         Rewriting URL to include local id https://calendar.proton.me/u/0/
+[2026-04-07 12:47:43.893] [info]  (calendar)     reset to home page https://calendar.proton.me/u/0/
+[2026-04-07 12:47:43.894] [info]  (calendar)     loadURL already in given url https://calendar.proton.me/u/0/
+[2026-04-07 12:47:43.895] [info]  (account)      reset to blank
+[2026-04-07 12:47:43.914] [error] (account)      did-fail-load -6 ERR_FILE_NOT_FOUND
+[2026-04-07 12:47:43.957] [warn]  (main)         unhandledRejection Error: ERR_FILE_NOT_FOUND (-6) loading 'file:///usr/lib/electron37/resources/loading.html?message=Loading%20Proton%20Account%E2%80%A6&color=%237A6E80&backgroundColor=%2316141c'
+    at rejectAndCleanup (node:electron/js2c/browser_init:2:79724)
+    at WebContents.finishListener (node:electron/js2c/browser_init:2:79886)
+    at WebContents.emit (node:events:519:28)
+    at e.emit (/usr/share/proton-mail/app.asar/.webpack/main/index.js:1:425521)
+[2026-04-07 12:47:46.125] [info]  (mail)         did-navigate-in-page https://mail.proton.me/u/0/inbox/c4tgPCoN8BBFCTHe8T4KBLF-AijsFkiGzKP65XquGQpExMhux8Z8lK7ftB0Eq_mr6oxL9_XKVEouUeziYmxmeQ==
+[2026-04-07 12:47:46.382] [info]  (preload)      Sending message: updateNotification
+[2026-04-07 12:47:46.390] [info]  (ipc)          Update badge value 1
+[2026-04-07 12:47:46.652] [info]  (preload)      Sending message: earlyAccess
+[2026-04-07 12:47:46.657] [info]  (settings)     Updating release category undefined
+[2026-04-07 12:47:46.660] [info]  (preload)      Sending message: earlyAccess
+[2026-04-07 12:47:46.664] [info]  (settings)     Updating release category undefined
+[2026-04-07 12:48:08.405] [info]  (mail)         did-navigate-in-page https://mail.proton.me/u/0/inbox
+[2026-04-07 12:48:08.407] [info]  (main)         Rewriting URL to include local id https://calendar.proton.me/u/0/
+[2026-04-07 12:48:08.408] [info]  (calendar)     reset to home page https://calendar.proton.me/u/0/
+[2026-04-07 12:48:08.409] [info]  (calendar)     loadURL already in given url https://calendar.proton.me/u/0/
+[2026-04-07 12:48:08.410] [info]  (account)      reset to blank
+[2026-04-07 12:48:08.426] [error] (account)      did-fail-load -6 ERR_FILE_NOT_FOUND
+[2026-04-07 12:48:08.455] [warn]  (main)         unhandledRejection Error: ERR_FILE_NOT_FOUND (-6) loading 'file:///usr/lib/electron37/resources/loading.html?message=Loading%20Proton%20Account%E2%80%A6&color=%237A6E80&backgroundColor=%2316141c'
+    at rejectAndCleanup (node:electron/js2c/browser_init:2:79724)
+    at WebContents.finishListener (node:electron/js2c/browser_init:2:79886)
+    at WebContents.emit (node:events:519:28)
+    at e.emit (/usr/share/proton-mail/app.asar/.webpack/main/index.js:1:425521)
+[2026-04-07 12:48:13.179] [info]  (preload)      Sending message: updateNotification
+[2026-04-07 12:48:13.182] [info]  (ipc)          Update badge value 1
+[2026-04-07 12:48:14.161] [info]  (mail)         did-navigate-in-page https://mail.proton.me/u/0/inbox/-ZNcdIHjbysoLQODz0FNplGQ58INMqN0lTbtTL0TPs0h2L1PvZSCIFUHzvtWR2_4LCXQG6T994fZJ9Js_7jrvg==
+[2026-04-07 12:48:14.347] [info]  (preload)      Sending message: updateNotification
+[2026-04-07 12:48:14.352] [info]  (ipc)          Update badge value 0
+[2026-04-07 12:48:14.353] [info]  (ipc)          Reset badge value
+[2026-04-07 12:48:14.697] [info]  (preload)      Sending message: earlyAccess
+[2026-04-07 12:48:14.700] [info]  (settings)     Updating release category undefined
+[2026-04-07 12:48:14.703] [info]  (preload)      Sending message: earlyAccess
+[2026-04-07 12:48:14.706] [info]  (settings)     Updating release category undefined
+[2026-04-07 12:48:19.569] [debug] (mail)         Window open (denied) unknown link open in browser https://u24871717.ct.sendgrid.net/__REST_OF_URL__
+[2026-04-07 12:48:23.106] [debug] (main)         request-load-time average: 228ms deviation: 0ms max: 228ms count: 1
+[2026-04-07 12:48:43.186] [debug] (flag-manager) Checking flags
+[2026-04-07 12:48:43.204] [debug] (flag-manager) Feature flags saved to cache
+[2026-04-07 12:48:45.103] [info]  (preload)      Sending message: updateNotification
+[2026-04-07 12:48:45.105] [info]  (ipc)          Update badge value 0
+[2026-04-07 12:48:45.106] [info]  (ipc)          Reset badge value
+[2026-04-07 12:48:48.886] [info]  (mail)         did-navigate-in-page https://mail.proton.me/u/0/inbox
+[2026-04-07 12:48:48.888] [info]  (main)         Rewriting URL to include local id https://calendar.proton.me/u/0/
+[2026-04-07 12:48:48.890] [info]  (calendar)     reset to home page https://calendar.proton.me/u/0/
+[2026-04-07 12:48:48.892] [info]  (calendar)     loadURL already in given url https://calendar.proton.me/u/0/
+[2026-04-07 12:48:48.894] [info]  (account)      reset to blank
+[2026-04-07 12:48:48.913] [error] (account)      did-fail-load -6 ERR_FILE_NOT_FOUND
+[2026-04-07 12:48:48.935] [warn]  (main)         unhandledRejection Error: ERR_FILE_NOT_FOUND (-6) loading 'file:///usr/lib/electron37/resources/loading.html?message=Loading%20Proton%20Account%E2%80%A6&color=%237A6E80&backgroundColor=%2316141c'
+    at rejectAndCleanup (node:electron/js2c/browser_init:2:79724)
+    at WebContents.finishListener (node:electron/js2c/browser_init:2:79886)
+    at WebContents.emit (node:events:519:28)
+    at e.emit (/usr/share/proton-mail/app.asar/.webpack/main/index.js:1:425521)
+[2026-04-07 12:48:48.954] [info]  (preload)      Sending message: updateNotification
+[2026-04-07 12:48:48.957] [info]  (ipc)          Update badge value 0
+[2026-04-07 12:48:48.958] [info]  (ipc)          Reset badge value
+[2026-04-07 12:48:52.528] [info]  (preload)      Sending message: showNotification
+[2026-04-07 12:48:52.532] [debug] (notification) Notification request received f92e59d6-bf8c-497f-a899-ab75e20c2695, 0: app="mail", labelID="0", elementID="-ZNcdIHjbysoLQODz0FNplGQ58INMqN0lTbtTL0TPs0h2L1PvZSCIFUHzvtWR2_4LCXQG6T994fZJ9Js_7jrvg=="
+[2026-04-07 12:48:52.533] [info]  (notification) Showing notification f92e59d6-bf8c-497f-a899-ab75e20c2695
+[2026-04-07 12:48:52.572] [info]  (preload)      Sending message: earlyAccess
+[2026-04-07 12:48:52.576] [info]  (settings)     Updating release category undefined
+[2026-04-07 12:48:52.574] [info]  (preload)      Sending message: updateNotification
+[2026-04-07 12:48:52.583] [info]  (ipc)          Update badge value 1
+[2026-04-07 12:48:53.106] [debug] (main)         request-load-time average: 666ms deviation: 0ms max: 666ms count: 1
+[2026-04-07 12:48:53.894] [info]  (mail)         did-navigate-in-page https://mail.proton.me/u/0/inbox/-ZNcdIHjbysoLQODz0FNplGQ58INMqN0lTbtTL0TPs0h2L1PvZSCIFUHzvtWR2_4LCXQG6T994fZJ9Js_7jrvg==
+[2026-04-07 12:48:54.125] [info]  (preload)      Sending message: updateNotification
+[2026-04-07 12:48:54.129] [info]  (ipc)          Update badge value 0
+[2026-04-07 12:48:54.131] [info]  (ipc)          Reset badge value
+[2026-04-07 12:48:54.404] [info]  (preload)      Sending message: earlyAccess
+[2026-04-07 12:48:54.407] [info]  (settings)     Updating release category undefined
+[2026-04-07 12:48:54.409] [info]  (preload)      Sending message: earlyAccess
+[2026-04-07 12:48:54.414] [info]  (settings)     Updating release category undefined
+[2026-04-07 12:48:59.143] [debug] (mail)         Window open (denied) unknown link open in browser https://u24871717.ct.sendgrid.net/__REST_OF_URL__
+[2026-04-07 12:49:02.538] [info]  (notification) Notification closed f92e59d6-bf8c-497f-a899-ab75e20c2695
+[2026-04-07 12:49:03.107] [debug] (main)         request-load-time average: 195ms deviation: 0ms max: 195ms count: 1
+[2026-04-07 12:49:24.566] [info]  (preload)      Sending message: updateNotification
+[2026-04-07 12:49:24.569] [info]  (ipc)          Update badge value 0
+[2026-04-07 12:49:24.570] [info]  (ipc)          Reset badge value
+[2026-04-07 12:49:43.187] [debug] (flag-manager) Checking flags
+[2026-04-07 12:49:43.205] [debug] (flag-manager) Feature flags saved to cache
+[2026-04-07 12:50:43.181] [debug] (main)         Trigger heartbeat
+[2026-04-07 12:50:43.188] [debug] (flag-manager) Checking flags
+[2026-04-07 12:50:43.206] [debug] (flag-manager) Feature flags saved to cache
+[2026-04-07 12:51:43.188] [debug] (flag-manager) Checking flags
+[2026-04-07 12:51:43.205] [debug] (flag-manager) Feature flags saved to cache
+[2026-04-07 12:52:43.189] [debug] (flag-manager) Checking flags
+[2026-04-07 12:52:43.207] [debug] (flag-manager) Feature flags saved to cache
+[2026-04-07 12:53:15.640] [info]  (mail)         did-navigate-in-page https://mail.proton.me/u/0/inbox
+[2026-04-07 12:53:15.644] [info]  (main)         Rewriting URL to include local id https://calendar.proton.me/u/0/
+[2026-04-07 12:53:15.647] [info]  (calendar)     reset to home page https://calendar.proton.me/u/0/
+[2026-04-07 12:53:15.649] [info]  (calendar)     loadURL already in given url https://calendar.proton.me/u/0/
+[2026-04-07 12:53:15.651] [info]  (account)      reset to blank
+[2026-04-07 12:53:15.673] [error] (account)      did-fail-load -6 ERR_FILE_NOT_FOUND
+[2026-04-07 12:53:15.694] [warn]  (main)         unhandledRejection Error: ERR_FILE_NOT_FOUND (-6) loading 'file:///usr/lib/electron37/resources/loading.html?message=Loading%20Proton%20Account%E2%80%A6&color=%237A6E80&backgroundColor=%2316141c'
+    at rejectAndCleanup (node:electron/js2c/browser_init:2:79724)
+    at WebContents.finishListener (node:electron/js2c/browser_init:2:79886)
+    at WebContents.emit (node:events:519:28)
+    at e.emit (/usr/share/proton-mail/app.asar/.webpack/main/index.js:1:425521)
+[2026-04-07 12:53:15.697] [info]  (preload)      Sending message: updateNotification
+[2026-04-07 12:53:15.704] [info]  (ipc)          Update badge value 0
+[2026-04-07 12:53:15.704] [info]  (ipc)          Reset badge value
+[2026-04-07 12:53:23.118] [debug] (main)         request-load-time average: 7ms deviation: 0ms max: 7ms count: 1
+[2026-04-07 12:53:43.190] [debug] (flag-manager) Checking flags
+[2026-04-07 12:53:43.208] [debug] (flag-manager) Feature flags saved to cache
+[2026-04-07 12:53:46.148] [info]  (preload)      Sending message: updateNotification
+[2026-04-07 12:53:46.150] [info]  (ipc)          Update badge value 0
+[2026-04-07 12:53:46.151] [info]  (ipc)          Reset badge value
+[2026-04-07 12:53:59.471] [info]  (main)         close, window not visible on Windows or Linux
+[2026-04-07 12:53:59.479] [info]  (main)         All windows closed
